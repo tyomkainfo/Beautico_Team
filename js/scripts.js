@@ -32,3 +32,7 @@ $('.owl-carousel_2').owlCarousel({
         }
     }
 });
+
+$( function() {
+    $( "#accordion" ).accordion();
+} );
