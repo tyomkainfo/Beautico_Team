@@ -1,0 +1,36 @@
+
+.how_it_works{
+    padding-bottom: 160px;
+}
+.how_it_works .how_it_works_first p:first-of-type{
+    padding: 4px 12px;
+    background: #EDEBF7;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #3C2769;
+
+}
+.how_it_works .how_it_works_first h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    color: #202939;
+    padding: 26px 0 28px 0;
+}
+.how_it_works .how_it_works_first p:last-of-type{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #697586;
+    padding-bottom: 77px;
+}
