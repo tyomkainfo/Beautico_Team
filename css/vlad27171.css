@@ -1,10 +1,12 @@
 
 .how_it_works{
     padding-bottom: 160px;
+
 }
 .how_it_works .how_it_works_first p:first-of-type{
     padding: 4px 12px;
     background: #EDEBF7;
+    border-radius: 24px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -33,4 +35,31 @@
     text-align: center;
     color: #697586;
     padding-bottom: 77px;
+}
+.how_it_works article {
+    text-align: center;
+}
+.how_it_works article img{
+    background: #EDEBF7;
+    padding: 30px;
+    border-radius: 50%;
+}
+.how_it_works article h4 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    color: #202939;
+    padding: 31px 26px;
+}
+.how_it_works article p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #4B5563;
 }
