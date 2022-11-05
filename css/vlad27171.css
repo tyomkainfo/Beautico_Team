@@ -2,6 +2,12 @@
 .how_it_works{
     padding: 160px 0;
 }
+.how_it_works h3{
+    margin: 26px 0 28px 0;
+}
+.how_it_works h4{
+    max-width: 124px;
+}
 .how_it_works .how_it_works_first p{
     font-family: 'Inter', sans-serif;
     font-style: normal;
