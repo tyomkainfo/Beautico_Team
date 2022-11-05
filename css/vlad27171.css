@@ -2,16 +2,6 @@
 .how_it_works{
     padding: 160px 0;
 }
-.how_it_works .how_it_works_first h3{
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 48px;
-    line-height: 58px;
-    text-align: center;
-    color: #202939;
-    padding: 26px 0 28px 0;
-}
 .how_it_works .how_it_works_first p{
     font-family: 'Inter', sans-serif;
     font-style: normal;

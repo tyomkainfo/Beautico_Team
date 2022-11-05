@@ -28,7 +28,7 @@
 .w-100{
    width: 100%;
 }
-.how_it_works .how_it_works_first h4{
+h4{
     margin: auto;
     padding: 4px 12px;
     background: #EDEBF7;
@@ -41,4 +41,14 @@
     text-align: center;
     color: #3C2769;
     width: 124px;
+}
+h3{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    color: #202939;
+    padding: 26px 0 28px 0;
 }
