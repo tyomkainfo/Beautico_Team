@@ -21,6 +21,7 @@
 }
 .testimonials_list {
     align-items: flex-start;
+
 }
 @media only screen and (max-width: 768px) {
     .testimonials_list {
@@ -36,20 +37,18 @@
     max-width: 324px;
     background: #F3F5F7;
     border-radius: 16px;
-    margin-right: 32px;
-    margin-bottom: 102px;
+    margin: 0 5px 102px 5px;
     padding: 0 38px 0 32px;
 }
 @media only screen and (max-width: 768px) {
     .testimonials_list article {
-        margin-right: 10px;
         margin-bottom: 50px;
         max-width: none;
     }
 }
 @media only screen and (max-width: 428px) {
     .testimonials_list article {
-        margin-right: 0;
+        margin-right: 5px;
         margin-bottom: 10px;
     }
 }
