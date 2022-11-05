@@ -1,0 +1,145 @@
+.about_us{
+    padding: 160px 0;
+    text-align: center;
+}
+.about_us .container{
+    max-width: 768px;
+    padding: 0 14px;
+}
+.about_us h4{
+    width: 95px;
+}
+.about_us p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #697586;
+    max-width: 741px;
+    margin: auto;
+    margin-bottom: 37px;
+}
+.about_us a{
+    display: inline-block;
+    text-decoration: none;
+}
+.about_us .link_holder{
+    width: 265px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.about_us .link_story{
+    padding: 17px 33px;
+    background: #FFFFFF;
+    border: 1px solid #CDD5DF;
+    border-radius: 64px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #202939;
+    margin-right: 16px;
+}
+.about_us .link_story:hover{
+    background: #CF4D74;
+    border: 1px solid #CF4D74;
+    color: #FFFFFF;
+}
+.about_us .link_story:active{
+    background: #CF4D74;
+    border: 1px solid #CF4D74;
+    color: #FFFFFF;
+}
+.about_us .link_contact{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #121926;
+}
+.about_us .link_contact::after{
+    content: '';
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-image: url(../images/chevron_right.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 1px;
+    margin-left: 9px;
+}
+
+@media only screen and (max-width: 835px){
+    .about_us{
+        padding: 100px 0;
+    }
+    .about_us p{
+        max-width: 640px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .about_us{
+        padding: 80px 0;
+    }
+    .about_us h3{
+        font-size: 50px;
+        line-height: 54px;
+    }
+
+}
+
+@media only screen and (max-width: 568px){
+    .about_us{
+        padding: 60px 0;
+    }
+    .about_us h4{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .about_us h3{
+        font-size: 45px;
+        line-height: 47px;
+    }
+}
+
+@media only screen and (max-width: 428px){
+    .about_us{
+        padding: 30px 0;
+    }
+    .about_us h4{
+        padding: 4px 8px;
+        font-size: 15px;
+        line-height: 18px;
+        margin-bottom: 9px;
+    }
+    .about_us h3{
+        font-size: 28px;
+        line-height: 33px;
+        margin-bottom: 14px;
+    }
+    .about_us p{
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .about_us .link_holder{
+        width: 280px;
+        justify-content: space-between;
+    }
+    .about_us .link_story{
+        padding: 9px 25px;
+        border-radius: 22px;
+        font-size: 14px;
+        line-height: 17px;
+        margin-right: 0;
+    }
+    .about_us .link_contact{
+        font-size: 14px;
+        line-height: 17px;
+    }
+}
