@@ -15,7 +15,7 @@ $('.owl-carousel_1').owlCarousel({
         }
     }
 });
-$('.owl-carousel_2').owlCarousel({
+$('.owl-carousel').owlCarousel({
     loop:true,
     margin:0,
     nav:true,
