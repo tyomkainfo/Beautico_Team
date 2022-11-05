@@ -1,6 +1,6 @@
 
 .how_it_works{
-    padding-bottom: 160px;
+    padding: 160px 0;
 }
 .how_it_works .how_it_works_first p:first-of-type{
     margin: auto;
@@ -39,6 +39,7 @@
     margin: auto;
 }
 .how_it_works article {
+    margin: auto;
     text-align: center;
     max-width: 317px;
 }
@@ -66,6 +67,23 @@
     text-align: center;
     color: #4B5563;
 }
+@media only screen and (max-width: 835px) {
+    .how_it_works .how_it_works_first h3{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .how_it_works article h4{
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .how_it_works article p{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .how_it_works article {
+        max-width: 260px;
+    }
+    }
 
 @media only screen and (max-width: 429px) {
     .how_it_works article {
@@ -84,7 +102,7 @@
     }
 
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 321px) {
     .how_it_works article {
         min-width: 296px;
         margin: auto;
