@@ -22,6 +22,16 @@
 .testimonials_list {
     align-items: flex-start;
 }
+@media only screen and (max-width: 768px) {
+    .testimonials_list {
+        flex-wrap: wrap-reverse;
+    }
+}
+@media only screen and (max-width: 428px) {
+    .testimonials_list {
+        display: block;
+    }
+}
 .testimonials_list article{
     max-width: 324px;
     background: #F3F5F7;
@@ -29,6 +39,19 @@
     margin-right: 32px;
     margin-bottom: 102px;
     padding: 0 38px 0 32px;
+}
+@media only screen and (max-width: 768px) {
+    .testimonials_list article {
+        margin-right: 10px;
+        margin-bottom: 50px;
+        max-width: none;
+    }
+}
+@media only screen and (max-width: 428px) {
+    .testimonials_list article {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
 }
 .container .testimonials_list q {
     display: block;
