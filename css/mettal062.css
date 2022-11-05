@@ -8,6 +8,10 @@
 }
 .about_us h4{
     width: 95px;
+    margin-bottom: 22px;
+}
+.about_us h4{
+    margin-bottom: 28px;
 }
 .about_us p{
     font-family: 'Inter';
