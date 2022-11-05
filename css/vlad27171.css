@@ -1,9 +1,9 @@
 
 .how_it_works{
     padding-bottom: 160px;
-
 }
 .how_it_works .how_it_works_first p:first-of-type{
+    margin: auto;
     padding: 4px 12px;
     background: #EDEBF7;
     border-radius: 24px;
@@ -14,7 +14,7 @@
     line-height: 24px;
     text-align: center;
     color: #3C2769;
-
+    width: 124px;
 }
 .how_it_works .how_it_works_first h3{
     font-family: 'Roboto';
@@ -35,6 +35,8 @@
     text-align: center;
     color: #697586;
     padding-bottom: 77px;
+    max-width: 744px;
+    margin: auto;
 }
 .how_it_works article {
     text-align: center;
