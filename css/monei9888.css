@@ -61,6 +61,7 @@
     background: #CF4D74;
     border: 1px solid #CF4D74;
     color: #FFFFFF;
+    transition: 0.5s;
 }
 
 @media only screen and (max-width: 834px){
