@@ -1,0 +1,102 @@
+.latest_posts h3 {
+    text-align: left;
+    margin: 14px 0 25px;
+}
+.latest_posts h4 {
+    max-width: 120px;
+    margin: unset;
+}
+.latest_posts .container {
+    display: flex;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    color: #697586;
+    max-width: 1280px;
+    margin: auto;
+    justify-content: space-between;
+}
+.latest_posts .button {
+    padding: 17px 33px;
+    box-sizing: border-box;
+    border: 1px solid #CDD5DF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #202939;
+    margin-top: 98px;
+    border-radius: 64px;
+    text-decoration: none;
+}
+.latest_posts .button:hover {
+    background-color: #CF4D74;
+    color: #FFFFFF;
+}
+.latest_posts .container article {
+    position: relative;
+}
+.latest_posts article {
+    background-color: #F3F5F7;
+    border-radius:  16px;
+    max-width: 405px;
+    box-sizing: border-box;
+}
+.latest_posts article .description p {
+    margin: 7px 0 22px;
+}
+.latest_posts .description {
+    padding: 32px 24px;
+}
+.latest_posts .description p {
+    max-width: 317px;
+}
+.latest_posts .Read_more {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #111827;
+    display: flex;
+}
+.latest_posts a {
+    text-decoration: none;
+}
+.latest_posts article .description .Read_more:after {
+    display: inline-block;
+    content: "";
+    width: 24px;
+    background: url("../images/Next_icon.png") no-repeat;
+    margin-left: 2px;
+    height: 24px;
+}
+.latest_posts article .headline {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    color: #202939;
+    background: none;
+}
+.latest_posts .descr {
+    padding: 4px 12px;
+    background: #CF4D74;
+    border-radius: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    position: absolute;
+    left: 24px;
+    top: 24px;
+}
+.latest_posts .container:first-child {
+    margin-bottom: 80px;
+}
