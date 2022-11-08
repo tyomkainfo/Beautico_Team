@@ -53,6 +53,9 @@
 .latest_posts article .description p {
     margin: 7px 0 22px;
 }
+.latest_posts article .description p:first-child {
+    margin: 0;
+}
 .latest_posts .description {
     padding: 32px 24px;
 }
@@ -110,17 +113,17 @@
         max-width: 310px;
     }
     .latest_posts article img {
-        max-width: 310px;
+        max-width: 100%;
     }
     .latest_posts .container {
-        padding: 0 24px;
+        padding: 0 16px;
         box-sizing: border-box;
     }
     .latest_posts .description p {
-        max-width: 262px;
+        max-width: 100%;
     }
     .latest_posts .description h4 {
-        max-width: 262px;
+        max-width: 100%;
     }
 }
 
@@ -129,17 +132,17 @@
         max-width: 300px;
     }
     .latest_posts article img {
-        max-width: 300px;
+        max-width: 100%;
     }
     .latest_posts .container {
-        padding: 0 24px;
+        padding: 0 16px;
         box-sizing: border-box;
     }
     .latest_posts .description p {
-        max-width: 252px;
+        max-width: 100%;
     }
     .latest_posts .description h4 {
-        max-width: 252px;
+        max-width: 100%;
     }
 }
 
@@ -148,17 +151,17 @@
         max-width: 250px;
     }
     .latest_posts article img {
-        max-width: 250px;
+        max-width: 100%;
     }
     .latest_posts .container {
-        padding: 0 24px;
+        padding: 0 16px;
         box-sizing: border-box;
     }
     .latest_posts .description p {
-        max-width: 202px;
+        max-width: 100%;
     }
     .latest_posts .description h4 {
-        max-width: 202px;
+        max-width: 100%;
     }
 }
 
@@ -167,17 +170,17 @@
         max-width: 244px;
     }
     .latest_posts article img {
-        max-width: 244px;
+        max-width: 100%;
     }
     .latest_posts .container {
-        padding: 0 24px;
+        padding: 0 16px;
         box-sizing: border-box;
     }
     .latest_posts .description p {
-        max-width: 196px;
+        max-width: 100%;
     }
     .latest_posts .description h4 {
-        max-width: 196px;
+        max-width: 100%;
     }
 }
 @media only screen and (max-width: 800px){
@@ -185,17 +188,17 @@
         max-width: 240px;
     }
     .latest_posts article img {
-        max-width: 240px;
+        max-width: 100%;
     }
     .latest_posts .container {
-        padding: 0 24px;
+        padding: 0 16px;
         box-sizing: border-box;
     }
     .latest_posts .description p {
-        max-width: 192px;
+        max-width: 100%;
     }
     .latest_posts .description h4 {
-        max-width: 192px;
+        max-width: 100%;
     }
 }
 
@@ -204,17 +207,17 @@
         max-width: 230px;
     }
     .latest_posts article img {
-        max-width: 230px;
+        max-width: 100%;
     }
     .latest_posts .container {
-        padding: 0 24px;
+        padding: 0 12px;
         box-sizing: border-box;
     }
     .latest_posts .description p {
-        max-width: 182px;
+        max-width: 100%;
     }
     .latest_posts .description h4 {
-        max-width: 182px;
+        max-width: 100%;
     }
 }
 
@@ -223,25 +226,27 @@
         margin-bottom: 24px;
     }
     .latest_posts article {
-        max-width: 380px;
+        max-width: 100%;
+    }
+    .latest_posts article img {
+        max-width: 100%;
+    }
+    .latest_posts .description p {
+        max-width: 100%;
+    }
+    .latest_posts .description h4 {
+        max-width: 100%;
     }
     .latest_posts h3 {
         text-align: center;
         margin: 14px 0 25px;
     }
-    .latest_posts article img {
-        max-width: 380px;
-    }
+
     .latest_posts .container {
-        padding: 0 24px;
+        padding: 0 12px;
         box-sizing: border-box;
     }
-    .latest_posts .description p {
-        max-width: 332px;
-    }
-    .latest_posts .description h4 {
-        max-width: 332px;
-    }
+
     .latest_posts .container {
         display: block;
     }
@@ -272,22 +277,23 @@
     }
 }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 415px) {
     .latest_posts article {
-        max-width: 370px;
+        max-width: 100%;
     }
     .latest_posts article img {
-        max-width: 370px;
-    }
-    .latest_posts .container {
-        padding: 0 24px;
-        box-sizing: border-box;
+        max-width: 100%;
     }
     .latest_posts .description p {
-        max-width: 322px;
+        max-width: 100%;
     }
     .latest_posts .description h4 {
-        max-width: 322px;
+        max-width: 100%;
+    }
+
+    .latest_posts .container {
+        padding: 0 12px;
+        box-sizing: border-box;
     }
     .latest_posts .container {
         display: block;
@@ -317,21 +323,22 @@
 
 @media only screen and (max-width: 391px) {
     .latest_posts article {
-        max-width: 342px;
+        max-width: 100%;
     }
     .latest_posts article img {
-        max-width: 342px;
-    }
-    .latest_posts .container {
-        padding: 0 24px;
-        box-sizing: border-box;
+        max-width: 100%;
     }
     .latest_posts .description p {
-        max-width: 294px;
+        max-width: 100%;
     }
     .latest_posts .description h4 {
-        max-width: 294px;
+        max-width: 100%;
     }
+    .latest_posts .container {
+        padding: 0 12px;
+        box-sizing: border-box;
+    }
+
     .latest_posts .container {
         display: block;
     }
@@ -360,21 +367,22 @@
 
 @media only screen and (max-width: 376px) {
     .latest_posts article {
-        max-width: 327px;
+        max-width: 100%;
     }
     .latest_posts article img {
-        max-width: 327px;
-    }
-    .latest_posts .container {
-        padding: 0 24px;
-        box-sizing: border-box;
+        max-width: 100%;
     }
     .latest_posts .description p {
-        max-width: 279px;
+        max-width: 100%;
     }
     .latest_posts .description h4 {
-        max-width: 279px;
+        max-width: 100%;
     }
+    .latest_posts .container {
+        padding: 0 12px;
+        box-sizing: border-box;
+    }
+
     .latest_posts .container {
         display: block;
     }
@@ -402,21 +410,22 @@
 }
 @media only screen and (max-width: 361px) {
     .latest_posts article {
-        max-width: 312px;
+        max-width: 100%;
     }
     .latest_posts article img {
-        max-width: 312px;
-    }
-    .latest_posts .container {
-        padding: 0 24px;
-        box-sizing: border-box;
+        max-width: 100%;
     }
     .latest_posts .description p {
-        max-width: 264px;
+        max-width: 100%;
     }
     .latest_posts .description h4 {
-        max-width: 264px;
+        max-width: 100%;
     }
+    .latest_posts .container {
+        padding: 0 12px;
+        box-sizing: border-box;
+    }
+
     .latest_posts .container {
         display: block;
     }
@@ -443,23 +452,37 @@
     }
 }
 
+@media only screen and (min-width: 768px) {
+    .latest_posts .description {
+        padding: 24px 24px;
+    }
+}
+@media only screen and (min-width: 801px) {
+    .latest_posts .description {
+        padding: 32px 24px;
+    }
+}
 @media only screen and (max-width: 321px) {
     .latest_posts article {
-        max-width: 272px;
+        max-width: 100%;
+    }
+    .latest_posts .description {
+        padding: 24px 24px;
     }
     .latest_posts article img {
-        max-width: 272px;
-    }
-    .latest_posts .container {
-        padding: 0 24px;
-        box-sizing: border-box;
+        max-width: 100%;
     }
     .latest_posts .description p {
-        max-width: 248px;
+        max-width: 100%;
     }
     .latest_posts .description h4 {
-        max-width: 248px;
+        max-width: 100%;
     }
+    .latest_posts .container {
+        padding: 0 12px;
+        box-sizing: border-box;
+    }
+
     .latest_posts .container {
         display: block;
     }
@@ -487,21 +510,22 @@
 }
 @media only screen and (max-width: 281px) {
     .latest_posts article {
-        max-width: 232px;
+        max-width: 100%;
     }
     .latest_posts article img {
-        max-width: 232px;
-    }
-    .latest_posts .container {
-        padding: 0 24px;
-        box-sizing: border-box;
+        max-width: 100%;
     }
     .latest_posts .description p {
-        max-width: 184px;
+        max-width: 100%;
     }
     .latest_posts .description h4 {
-        max-width: 184px;
+        max-width: 100%;
     }
+    .latest_posts .container {
+        padding: 0 12px;
+        box-sizing: border-box;
+    }
+
     .latest_posts .container {
         display: block;
     }
