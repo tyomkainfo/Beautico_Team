@@ -6,6 +6,7 @@ $('.owl-carousel_1').owlCarousel({
     navText: [ '', ' ' ],
     autoplay: true,
     smartSpeed:1000,
+    autoWidth: true,
     responsive:{
         0:{
             items:2
