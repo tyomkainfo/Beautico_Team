@@ -9,19 +9,19 @@ $('.owl-carousel_1').owlCarousel({
     autoWidth: true,
     responsive:{
         0:{
-            items:2
+            items:1
         },
 
         1000:{
-            items:6
+            items:1
         },
 
         1640:{
-            items:7
+            items:1
         },
 
         1920:{
-            items:8
+            items:1
         },
     }
 });
