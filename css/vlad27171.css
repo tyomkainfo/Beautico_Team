@@ -65,6 +65,7 @@
     .how_it_works article {
         max-width: 260px;
     }
+
     }
 
 @media only screen and (max-width: 429px) {
@@ -81,6 +82,9 @@
     .how_it_works .how_it_works_first h3{
         font-size: 40px;
         line-height: 50px;
+    }
+    .d-flex.space-between.how_it_works_second{
+        display: block;
     }
 
 }

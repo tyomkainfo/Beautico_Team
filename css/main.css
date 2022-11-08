@@ -50,3 +50,11 @@ h3{
     text-align: center;
     color: #202939;
 }
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 67px;
+    color: #3C2769;
+}
