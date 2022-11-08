@@ -1,6 +1,7 @@
 .main_banner{
     background: #EDEBF7;
     padding: 78px 0 64px;
+    position: relative;
 }
 
 .main_banner p{
