@@ -2,6 +2,10 @@
     text-align: left;
     margin: 14px 0 25px;
 }
+.latest_posts {
+    padding: 128px 0;
+    box-sizing: border-box;
+}
 .latest_posts h4 {
     max-width: 120px;
     margin: unset;
@@ -18,6 +22,7 @@
     margin: auto;
     justify-content: space-between;
 }
+
 .latest_posts .button {
     padding: 17px 33px;
     box-sizing: border-box;
@@ -99,4 +104,426 @@
 }
 .latest_posts .container:first-child {
     margin-bottom: 80px;
+}
+@media only screen and (max-width: 1024px){
+    .latest_posts article {
+        max-width: 310px;
+    }
+    .latest_posts article img {
+        max-width: 310px;
+    }
+    .latest_posts .container {
+        padding: 0 24px;
+        box-sizing: border-box;
+    }
+    .latest_posts .description p {
+        max-width: 262px;
+    }
+    .latest_posts .description h4 {
+        max-width: 262px;
+    }
+}
+
+@media only screen and (max-width: 992px){
+    .latest_posts article {
+        max-width: 300px;
+    }
+    .latest_posts article img {
+        max-width: 300px;
+    }
+    .latest_posts .container {
+        padding: 0 24px;
+        box-sizing: border-box;
+    }
+    .latest_posts .description p {
+        max-width: 252px;
+    }
+    .latest_posts .description h4 {
+        max-width: 252px;
+    }
+}
+
+@media only screen and (max-width: 835px){
+    .latest_posts article {
+        max-width: 250px;
+    }
+    .latest_posts article img {
+        max-width: 250px;
+    }
+    .latest_posts .container {
+        padding: 0 24px;
+        box-sizing: border-box;
+    }
+    .latest_posts .description p {
+        max-width: 202px;
+    }
+    .latest_posts .description h4 {
+        max-width: 202px;
+    }
+}
+
+@media only screen and (max-width: 820px){
+    .latest_posts article {
+        max-width: 244px;
+    }
+    .latest_posts article img {
+        max-width: 244px;
+    }
+    .latest_posts .container {
+        padding: 0 24px;
+        box-sizing: border-box;
+    }
+    .latest_posts .description p {
+        max-width: 196px;
+    }
+    .latest_posts .description h4 {
+        max-width: 196px;
+    }
+}
+@media only screen and (max-width: 800px){
+    .latest_posts article {
+        max-width: 240px;
+    }
+    .latest_posts article img {
+        max-width: 240px;
+    }
+    .latest_posts .container {
+        padding: 0 24px;
+        box-sizing: border-box;
+    }
+    .latest_posts .description p {
+        max-width: 192px;
+    }
+    .latest_posts .description h4 {
+        max-width: 192px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .latest_posts article {
+        max-width: 230px;
+    }
+    .latest_posts article img {
+        max-width: 230px;
+    }
+    .latest_posts .container {
+        padding: 0 24px;
+        box-sizing: border-box;
+    }
+    .latest_posts .description p {
+        max-width: 182px;
+    }
+    .latest_posts .description h4 {
+        max-width: 182px;
+    }
+}
+
+@media only screen and (max-width: 428px) {
+    .latest_posts .container:first-child p {
+        margin-bottom: 24px;
+    }
+    .latest_posts article {
+        max-width: 380px;
+    }
+    .latest_posts h3 {
+        text-align: center;
+        margin: 14px 0 25px;
+    }
+    .latest_posts article img {
+        max-width: 380px;
+    }
+    .latest_posts .container {
+        padding: 0 24px;
+        box-sizing: border-box;
+    }
+    .latest_posts .description p {
+        max-width: 332px;
+    }
+    .latest_posts .description h4 {
+        max-width: 332px;
+    }
+    .latest_posts .container {
+        display: block;
+    }
+    .latest_posts .button {
+        /*display: flex;*/
+        /*margin: 16px 103px;*/
+        padding: 9px 25px;
+        border-radius: 22px;
+        font-size: 14px;
+        line-height: 17px;
+        margin-right: 0;
+    }
+    .latest_posts .container:first-child {
+        text-align: center;
+    }
+    .latest_posts .headline-Latest_posts {
+        margin: auto;
+    }
+    .latest_posts article {
+        margin-bottom: 24px;
+    }
+    .latest_posts article:last-child {
+        margin-bottom: unset;
+    }
+    .latest_posts h4 {
+        max-width: 120px;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .latest_posts article {
+        max-width: 370px;
+    }
+    .latest_posts article img {
+        max-width: 370px;
+    }
+    .latest_posts .container {
+        padding: 0 24px;
+        box-sizing: border-box;
+    }
+    .latest_posts .description p {
+        max-width: 322px;
+    }
+    .latest_posts .description h4 {
+        max-width: 322px;
+    }
+    .latest_posts .container {
+        display: block;
+    }
+    .latest_posts .button {
+        /*display: flex;*/
+        /*margin: 16px 103px;*/
+        padding: 9px 25px;
+        border-radius: 22px;
+        font-size: 14px;
+        line-height: 17px;
+        margin-right: 0;
+    }
+    .latest_posts .container:first-child {
+        text-align: center;
+    }
+    .latest_posts .headline-Latest_posts {
+        margin: auto;
+    }
+    .latest_posts article {
+        margin-bottom: 24px;
+    }
+    .latest_posts article:last-child {
+        margin-bottom: unset;
+    }
+}
+
+@media only screen and (max-width: 391px) {
+    .latest_posts article {
+        max-width: 342px;
+    }
+    .latest_posts article img {
+        max-width: 342px;
+    }
+    .latest_posts .container {
+        padding: 0 24px;
+        box-sizing: border-box;
+    }
+    .latest_posts .description p {
+        max-width: 294px;
+    }
+    .latest_posts .description h4 {
+        max-width: 294px;
+    }
+    .latest_posts .container {
+        display: block;
+    }
+    .latest_posts .button {
+        /*display: flex;*/
+        /*margin: 16px 103px;*/
+        padding: 9px 25px;
+        border-radius: 22px;
+        font-size: 14px;
+        line-height: 17px;
+        margin-right: 0;
+    }
+    .latest_posts .container:first-child {
+        text-align: center;
+    }
+    .latest_posts .headline-Latest_posts {
+        margin: auto;
+    }
+    .latest_posts article {
+        margin-bottom: 24px;
+    }
+    .latest_posts article:last-child {
+        margin-bottom: unset;
+    }
+}
+
+@media only screen and (max-width: 376px) {
+    .latest_posts article {
+        max-width: 327px;
+    }
+    .latest_posts article img {
+        max-width: 327px;
+    }
+    .latest_posts .container {
+        padding: 0 24px;
+        box-sizing: border-box;
+    }
+    .latest_posts .description p {
+        max-width: 279px;
+    }
+    .latest_posts .description h4 {
+        max-width: 279px;
+    }
+    .latest_posts .container {
+        display: block;
+    }
+    .latest_posts .button {
+        /*display: flex;*/
+        /*margin: 16px 103px;*/
+        padding: 9px 25px;
+        border-radius: 22px;
+        font-size: 14px;
+        line-height: 17px;
+        margin-right: 0;
+    }
+    .latest_posts .container:first-child {
+        text-align: center;
+    }
+    .latest_posts .headline-Latest_posts {
+        margin: auto;
+    }
+    .latest_posts article {
+        margin-bottom: 24px;
+    }
+    .latest_posts article:last-child {
+        margin-bottom: unset;
+    }
+}
+@media only screen and (max-width: 361px) {
+    .latest_posts article {
+        max-width: 312px;
+    }
+    .latest_posts article img {
+        max-width: 312px;
+    }
+    .latest_posts .container {
+        padding: 0 24px;
+        box-sizing: border-box;
+    }
+    .latest_posts .description p {
+        max-width: 264px;
+    }
+    .latest_posts .description h4 {
+        max-width: 264px;
+    }
+    .latest_posts .container {
+        display: block;
+    }
+    .latest_posts .button {
+        /*display: flex;*/
+        /*margin: 16px 103px;*/
+        padding: 9px 25px;
+        border-radius: 22px;
+        font-size: 14px;
+        line-height: 17px;
+        margin-right: 0;
+    }
+    .latest_posts .container:first-child {
+        text-align: center;
+    }
+    .latest_posts .headline-Latest_posts {
+        margin: auto;
+    }
+    .latest_posts article {
+        margin-bottom: 24px;
+    }
+    .latest_posts article:last-child {
+        margin-bottom: unset;
+    }
+}
+
+@media only screen and (max-width: 321px) {
+    .latest_posts article {
+        max-width: 272px;
+    }
+    .latest_posts article img {
+        max-width: 272px;
+    }
+    .latest_posts .container {
+        padding: 0 24px;
+        box-sizing: border-box;
+    }
+    .latest_posts .description p {
+        max-width: 248px;
+    }
+    .latest_posts .description h4 {
+        max-width: 248px;
+    }
+    .latest_posts .container {
+        display: block;
+    }
+    .latest_posts .button {
+        /*display: flex;*/
+        /*margin: 16px 103px;*/
+        padding: 9px 25px;
+        border-radius: 22px;
+        font-size: 14px;
+        line-height: 17px;
+        margin-right: 0;
+    }
+    .latest_posts .container:first-child {
+        text-align: center;
+    }
+    .latest_posts .headline-Latest_posts {
+        margin: auto;
+    }
+    .latest_posts article {
+        margin-bottom: 24px;
+    }
+    .latest_posts article:last-child {
+        margin-bottom: unset;
+    }
+}
+@media only screen and (max-width: 281px) {
+    .latest_posts article {
+        max-width: 232px;
+    }
+    .latest_posts article img {
+        max-width: 232px;
+    }
+    .latest_posts .container {
+        padding: 0 24px;
+        box-sizing: border-box;
+    }
+    .latest_posts .description p {
+        max-width: 184px;
+    }
+    .latest_posts .description h4 {
+        max-width: 184px;
+    }
+    .latest_posts .container {
+        display: block;
+    }
+    .latest_posts .button {
+        /*display: flex;*/
+        /*margin: 16px 103px;*/
+        padding: 9px 25px;
+        border-radius: 22px;
+        font-size: 14px;
+        line-height: 17px;
+        margin-right: 0;
+    }
+    .latest_posts .container:first-child {
+        text-align: center;
+    }
+    .latest_posts .headline-Latest_posts {
+        margin: auto;
+    }
+    .latest_posts article {
+        margin-bottom: 24px;
+    }
+    .latest_posts article:last-child {
+        margin-bottom: unset;
+    }
 }
