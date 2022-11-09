@@ -25,10 +25,11 @@ $('.owl-carousel_1').owlCarousel({
         },
     }
 });
-$('.owl-carousel').owlCarousel({
+$('.owl-carousel_2').owlCarousel({
     loop:true,
     margin:0,
-    nav:true,
+    nav:false,
+    dots:false,
     navText: [ '', ' ' ],
     autoplay: false,
     autoplayTimeout:2000,
@@ -36,7 +37,9 @@ $('.owl-carousel').owlCarousel({
         0:{
             items:2
         },
-
+        500:{
+            items:3
+        },
         1000:{
             items:5
         }
