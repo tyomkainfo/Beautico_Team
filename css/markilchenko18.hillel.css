@@ -36,6 +36,7 @@
     margin-top: 98px;
     border-radius: 64px;
     text-decoration: none;
+    transition: 0.5s;
 }
 .latest_posts .button:hover {
     background-color: #CF4D74;
@@ -104,6 +105,7 @@
     position: absolute;
     left: 24px;
     top: 24px;
+    transition: 0.5s;
 }
 .latest_posts .container:first-child {
     margin-bottom: 80px;
