@@ -46,9 +46,14 @@ $('.owl-carousel_2').owlCarousel({
     }
 });
 
-$( function() {
-    $( "#accordion" ).accordion();
-} );
+$(function() {
+    $("#accordion").accordion({
+        collapsible: true,
+        active: false,
+        heightStyle: "content",
+    });
+});
+
 
 $(document).ready(function () {
     $('header .hidden_board button').on('click', function () {
