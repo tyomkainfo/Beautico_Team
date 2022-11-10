@@ -42,6 +42,7 @@ header .hidden_board button{
 }
 header .hidden_board button:hover {
     cursor: pointer;
+    transition: 0.5s;
 }
 header .hidden_board p{
     font-family: 'Inter';
@@ -63,9 +64,7 @@ header .menu {
 }
 header .menu-buttons {
     position: absolute;
-    right: 21px;
-
-    
+    right: 21px;  
 }
 header nav{
     padding: 24px 21px;
@@ -122,6 +121,7 @@ header nav .menu-buttons li a:hover {
     background: #CF4D74;
     border-color: #CF4D74;
     color: #FFFFFF;
+    transition: 0.5s;
 }
 header .burger{
     background: none;
@@ -150,6 +150,9 @@ header .burger_menu_wrapper .burger_menu li {
     margin-top: 20px;
 }
 header .burger_menu_wrapper .burger_menu li a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
     font-size: 18px;
     color: #3C2769;
     text-decoration: none;
