@@ -36,6 +36,7 @@
     margin-top: 98px;
     border-radius: 64px;
     text-decoration: none;
+    transition: 0.5s;
 }
 .latest_posts .button:hover {
     background-color: #CF4D74;
@@ -70,6 +71,13 @@
     line-height: 24px;
     color: #111827;
     display: flex;
+    transition: 0.5s;
+}
+.latest_posts .Read_more:hover{
+    color: #CF4D74;
+}
+.latest_posts article .description .Read_more:hover:after {
+    background: url("../images/Next_icon_hover.png") no-repeat;
 }
 .latest_posts a {
     text-decoration: none;
@@ -78,9 +86,10 @@
     display: inline-block;
     content: "";
     width: 24px;
-    background: url("../images/Next_icon.png") no-repeat;
+    background: url("../images/Next_icon_2.png") no-repeat;
     margin-left: 2px;
     height: 24px;
+    transition: 0.7s;
 }
 .latest_posts article .headline {
     font-family: 'Roboto';
@@ -104,6 +113,7 @@
     position: absolute;
     left: 24px;
     top: 24px;
+    transition: 0.5s;
 }
 .latest_posts .container:first-child {
     margin-bottom: 80px;

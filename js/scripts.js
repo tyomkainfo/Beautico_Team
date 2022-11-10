@@ -9,26 +9,27 @@ $('.owl-carousel_1').owlCarousel({
     autoWidth: true,
     responsive:{
         0:{
-            items:2
+            items:1
         },
 
         1000:{
-            items:6
+            items:1
         },
 
         1640:{
-            items:7
+            items:1
         },
 
         1920:{
-            items:8
+            items:1
         },
     }
 });
-$('.owl-carousel').owlCarousel({
+$('.owl-carousel_2').owlCarousel({
     loop:true,
     margin:0,
-    nav:true,
+    nav:false,
+    dots:false,
     navText: [ '', ' ' ],
     autoplay: false,
     autoplayTimeout:2000,
@@ -36,16 +37,23 @@ $('.owl-carousel').owlCarousel({
         0:{
             items:2
         },
-
+        500:{
+            items:3
+        },
         1000:{
             items:5
         }
     }
 });
 
-$( function() {
-    $( "#accordion" ).accordion();
-} );
+$(function() {
+    $("#accordion").accordion({
+        collapsible: true,
+        active: false,
+        heightStyle: "content",
+    });
+});
+
 
 $(document).ready(function () {
     $('header .hidden_board button').on('click', function () {
