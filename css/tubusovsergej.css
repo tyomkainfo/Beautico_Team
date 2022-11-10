@@ -4,7 +4,7 @@
 .best_sellers{
     padding-bottom: 48px
 }
-.sellers_btn{
+.sellers{
     padding: 4px 12px;
     background-color: #EDEBF7;
     border-radius: 24px;
@@ -80,6 +80,12 @@
     text-decoration: none;
     color: #202939
 }
+.product_details_btn:hover{
+    background: #CF4D74;
+    border: 1px solid #CF4D74;
+    color: #FFFFFF;
+    transition: 0.5s
+}
 @media only screen and (max-width: 1300px){
     .best_sellers .container{
         padding: 0 12px;
@@ -140,11 +146,17 @@
     }
 }
 @media only screen and (max-width: 767px){
+    .best_sellers{
+        padding-bottom: 20px
+    }
     .best_sellers .creme_main{
-        display: inline-block;
+        display: inline-block
+    }
+    .sellers_description{
+        margin-bottom: 30px
     }
     .creme_main{
-        display: block;
+        display: block
     }
     .creme_holder {
         max-width: 395px;
