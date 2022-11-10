@@ -1,0 +1,174 @@
+.face_skin{
+    margin-bottom: 160px;
+}
+.face_skin img, .body_skin img{
+    border-radius: 24px;
+}
+.face_skin img{
+    margin-right: 128px;
+}
+.body_skin img{
+    margin-left: 133px;
+}
+.collection{
+    text-align: left;
+}
+.face_skin h3, .body_skin h3{
+    text-align: left;
+    margin: 14px auto 28px auto;
+}
+.face_skin h4, .body_skin h4{
+    padding: 4px 12px;
+    max-width: 199px;
+    margin: 0;
+}
+.face_skin p, .body_skin p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #697586;
+    max-width: 571px;
+    text-align: left;
+    margin-bottom: 54px;
+}
+.face_skin a:first-of-type, .body_skin a:first-of-type{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #202939;
+    background: #FFFFFF;
+    border: 1px solid #CDD5DF;
+    border-radius: 64px;
+    padding: 17px 33px;
+    text-decoration: none;
+    margin-right: 16px;
+    transition: 0.5s;
+}
+.face_skin a:first-of-type:hover, .body_skin a:first-of-type:hover{
+    background-color: #CF4D74;
+    color: #FFFFFF;
+    border: 1px solid #CF4D74;
+}
+.face_skin a:last-of-type, .body_skin a:last-of-type{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #111827;
+    text-decoration: none;
+}
+.face_skin a:last-of-type:after, .body_skin a:last-of-type:after{
+    content: url("../images/chevron_right.svg");
+    display: inline-block;
+    width: 24px;
+    height: 36px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .container{
+        max-width: 984px;
+        margin: auto;
+    }
+    .face_skin img, .body_skin img{
+        max-width: 400px;
+    }
+}
+@media only screen and (max-width: 992px){
+    .collection .container{
+        max-width: 952px;
+    }
+}
+@media only screen and (max-width: 834px) {
+    .face_skin img, .body_skin img {
+        max-width: 330px;
+        height: 330px;
+    }
+    .face_skin h3, .body_skin h3{
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    .face_skin p, .body_skin p{
+        font-size: 17px;
+        margin-bottom: 40px;
+    }
+    .collection .container{
+        max-width: 794px;
+        margin: auto;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .collection .container {
+        max-width: 760px;
+    }
+
+    .face_skin img, .body_skin img {
+        max-width: 290px;
+        height: 290px;
+    }
+
+    .face_skin h4, .body_skin h4 {
+        padding: 2px 10px;
+        font-size: 15px;
+    }
+
+    .face_skin h3, .body_skin h3 {
+        margin: 12px auto 15px auto;
+    }
+    .face_skin p, .body_skin p{
+        font-size: 15px;
+        margin-bottom: 30px;
+        line-height: 29px;
+    }
+}
+@media only screen and (max-width: 428px){
+    .face_skin.d-flex, .body_skin.d-flex{
+        flex-direction: column;
+        align-items: center;
+    }
+    .face_skin img, .body_skin img{
+        margin: auto;
+    }
+    .body_skin img{
+        margin-top: 15px;
+    }
+    .collection_size{
+        text-align: center;
+    }
+    .face_skin h4, .body_skin h4{
+        align-items: center;
+        margin: 15px auto;
+    }
+    .face_skin h3, .body_skin h3{
+        text-align: center;
+    }
+    .face_skin p, .body_skin p{
+        text-align: center;
+        max-width: 400px;
+    }
+}
+@media only screen and (max-width: 280px){
+    .collection .container{
+        padding:  0 15px;
+    }
+    .face_skin img, .body_skin img{
+        width: 250px;
+        height: 250px;
+    }
+    .face_skin a:first-of-type, .body_skin a:first-of-type{
+        font-size: 14px;
+        padding: 10px 25px;
+    }
+    .face_skin a:last-of-type, .body_skin a:last-of-type{
+        font-size: 14px;
+    }
+    .face_skin h3, .body_skin h3{
+        font-size: 33px;
+    }
+}
