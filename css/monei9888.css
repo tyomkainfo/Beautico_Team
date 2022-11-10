@@ -1,6 +1,3 @@
-.best_selling_big{
-    padding: 0 80px;
-}
 .best_selling_big_div{
     max-width: 1280px;
     display: flex;    
@@ -15,8 +12,7 @@
     position: relative;
 }
 .best_selling_big_article img{
-    max-width: 624px;
-    position: absolute;
+    max-width: 624px;    
     bottom: 0;
 }
 .best_selling_big_text{
